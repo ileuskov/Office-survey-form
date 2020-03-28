@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>A request to join "the Office" fan community</title>
+    <link rel="stylesheet" href="survey.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="outside">
+        <form id="survey-form">
+
+            <h1 id="title">A request to join "the Office" fan community</h1>
+            <p id="note"><b>Note:</b> Are you truly a big Office fan? If so, you might try your luck and apply to our
+                community. <br>
+                   Remember: <b>"You miss 100 percent of the shots you don't take" </b> - Wayne Gretzky </p>
+
+            <!------------ Personal Information ------------>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div>
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name:="fname" placeholder="First name">
+                </div>
+                <div>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name:="lname" placeholder="Last name">
+                </div>
+                <div>
+                    <label for="adress">Address:</label>
+                    <input type="text" id="adress" name:="adress" placeholder="Country, city and street">
+                </div>
+                <div>
+                    <label for="rewatchCount">How many times have you rewatched the Office:</label>
+                    <input type="number" id="rewatchCount" name:="rewatchCount"
+                        placeholder="It's better be more than 3">
+                </div>
+                <div>
+                    <label for="favSeason">What is your favourite Season?</label>
+                    <input type="number" id="favSeason" name:="favSeason" placeholder="Very important" max="9">
+                </div>
+                <div>
+                    <label for="email">Your email:</label>
+                    <input type="email" id="email" name:="email" placeholder="e.g., MikeScott@gmail.com">
+                </div>
+                <div>
+                    <label for="dateOfBirth">Your date of birth:</label>
+                    <input type="date" id="dateOfBirth" name:="dateOfBirth" placeholder="">
+                </div>
+            </fieldset>
+
+
+            <!------------ Radio Boxes ------------>
+            <fieldset>
+                <legend>Let's check your preferences</legend>
+                <div>
+                    <input type="checkbox" name="cats" value="cat"> I'm a cat person <br>
+                    <input type="checkbox" name="british" value="british"> The british version of the Office is the best <br>
+                    <input type="checkbox" name="Toby" value="detective"> Toby is the scranton strangler <br>
+                    <input type="checkbox" name="HilarySwank" value="objectivism"> Hilary Swank is hot <br>
+                    <input type="checkbox" name="Pizza" value="gourmand"> I would prefer a medium amount of good pizza
+                    rather than all you can eat of pretty good pizza <br>
+                    <input type="checkbox" name="SchruteFarms" value="historian"> Battle of Shrute Farms is the
+                    northernmost battle of the Civil War <br>
+                    <input type="checkbox" name="RoyOrCathy" value="romantic"> Roy is much smarter than Cathy <br>
+                </div>
+            </fieldset>
+
+            <!------------ Dropdown menus ------------>
+            <fieldset>
+                <div>
+                    <label for="bestBoss">Who is the best boss?</label>
+                    <select id="dropdown1">
+                        <option value="Michael">Michael Scott</option>
+                        <option value="Charles">Charles Minor</option>
+                        <option value="DeAngelo">DeAngelo Vickers</option>
+                        <option value="Andy">Andy Bernard</option>
+                        <option value="Dwight">Dwight K. Schrute</option>
+                        <option value="Jim">Jim Halpert</option>
+                        <option value="Jo">Jo Bennett</option>
+                        <option value="Robert">Robert California</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="bestGirlfriend">Who is the best girlfriend for Michael?</label>
+                    <select id="dropdown2">
+                        <option value="Michael">Jan Levinson</option>
+                        <option value="Charles">Donna Newton</option>
+                        <option value="DeAngelo">Deborah Shoshlefski</option>
+                        <option value="Andy">Helene Beesly</option>
+                        <option value="Dwight">Carol Stills</option>
+                        <option value="Jim">Holly Flax</option>
+                        <option value="Jo">Nikki</option>
+                        <option value="Robert">Concierge Marie</option>
+                    </select>
+                </div>
+            </fieldset>
+
+            <!------------ Essay Areas ------------>
+            <fieldset>
+                <legend>Essay Section</legend>
+                <div id="essay1">
+                    <p>In 50 Words or more explain why is The Office the best TV show ever:</p>
+                    <textarea name="essay1" id="essay1" cols="50" rows="4"
+                        placeholder="Enter your text here"></textarea>
+                </div>
+
+                <div id="essay2">
+                    <p>In 50 words or more explain why there hasn't happened an Office Reboot yet</p>
+                    <textarea name="essay2" id="essay2" cols="50" rows="4"
+                        placeholder="Enter your text here"></textarea>
+                </div>
+
+                <div>
+                    Upload your photo with an Office merch product:
+                    <button>Attach Files</button>
+                </div>
+            </fieldset>
+
+            <!------------ Submit area ------------>
+            <div id="submit">
+                <button type="submit id=" submit">Send your application</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
